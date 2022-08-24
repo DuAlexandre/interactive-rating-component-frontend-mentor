@@ -25,6 +25,10 @@ main {
     padding: 40px;
 }
 
+.center {
+    text-align: center;
+}
+
 h1 {
     color:  hsl(0, 0%, 100%);
     margin-top: 40px;
@@ -52,6 +56,18 @@ h1 {
 
 .rating {
     transition-duration: 0.4s;
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#note {
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 15px;
+    width: 200px;
 }
 
 .rating:hover {
